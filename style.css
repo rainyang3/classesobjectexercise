@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    top: 45%;
+    left: 45%;
+    position: absolute;
+    display: inline-block;
+}
+
+
+.mons{
+    /* display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    border: 2px solid violet;
+}
+
+div{
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+#monsters{
+    display: inline-block;
+}
+button{
+    padding: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
